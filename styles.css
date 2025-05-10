@@ -73,6 +73,7 @@ body {
   font-size: 16px;
   top:  0;
   left: 0;
+  box-shadow: 0 5px 10px rgba(245, 178, 178, 0.7)
 }
 
 .navbar-light .navbar-nav .nav-link{
@@ -199,4 +200,23 @@ body {
 
 #banner button{
   background-color: #d8d8d8;
+}
+
+footer {
+  background-color: #222;
+}
+
+footer h5{
+  color: #d8d8d8;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+footer li a{
+  font-size: 0.8rem;
+  color: #999;
+}
+
+footer li a:hover{
+  color: #d8d8d8;
 }
